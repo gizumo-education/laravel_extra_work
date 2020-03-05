@@ -5,32 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lv2課題</title>
+    <style>
+        body {
+            position: fixed;
+            margin-top: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .logo {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 30%;
+            z-index: -10;
+        }
+        .wrapper {
+            margin: 0 auto;
+            padding: 0 140px;
+            width: 500px;
+            box-sizing: border-box;
+        }
+        .title {
+            text-align: center;
+        }
+        .row {
+            text-align: right;
+        }
+        .row:last-child {
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
-<style>
-    body {
-        position: fixed;
-        margin-top: 0;
-        height: 100%;
-        width: 100%;
-    }
-    .wrapper {
-        margin: 0 auto;
-        padding: 0 140px;
-        width: 500px;
-        box-sizing: border-box;
-    }
-
-    .title {
-        text-align: center;
-    }
-
-    .row {
-        text-align: right;
-    }
-</style>
 <body>
     <div class="wrapper">
-        <h2 class="title">Lv2の課題</h2>
+        <img class="logo" src="https://res.cloudinary.com/gizumo-inc/image/upload/v1583407487/curriculums/Laravel%20Lesson/extra/extra_work_bg.png" alt="">
+        <h2 class="title">Lv2</h2>
         <form action="">
             <input type="hidden" name="id" value="1">
             <input type="hidden" name="status" value="ok">
@@ -41,6 +52,9 @@
             <div class="row">
                 <span>パスワード：</span>
                 <input class="input_area password" type="password" name="password" placeholder="パスワード">
+            </div>
+            <div class="row">
+                <input class="input_area" type="submit">
             </div>
         </form>
     </div>
