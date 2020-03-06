@@ -3,6 +3,7 @@
 ## 内容
 - `/gizumo_lv1`にアクセスしてブラウザに`gizumo`の文字列を表示
 ### 条件
+- GiztechのLaravel lessonで作成したプロジェクト(testApp)を使用する
 - controllerを作成・使用する
 - controller名は任意
 
