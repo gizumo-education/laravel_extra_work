@@ -9,7 +9,7 @@
     - `lv4.blade.php`は[リンク](https://github.com/Takayyz/laravel_extra_work/blob/master/lv4/lv4.blade.php)先の中程にある`RAW`というボタンを押下して表示されるページで右クリック→`別名で保存`を選択するとダウンロードできます(※windowsの場合は`名前をつけて保存`)
 
 ## 制限時間
-- 2時間
+- 1時間
 
 ## 課題が終わったら or 制限時間を過ぎたら
 - `/requester`で終わった旨、もしくは終わらなかった旨を報告
