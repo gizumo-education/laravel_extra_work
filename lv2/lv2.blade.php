@@ -30,7 +30,7 @@
             text-align: center;
         }
         .row {
-            width: 14px;
+            font-size: 14px;
             text-align: right;
         }
         .row:last-child {
